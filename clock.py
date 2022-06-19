@@ -4,7 +4,7 @@ from time import strftime
 
 theclock = strftime("%H:%M:%S")
 
-
+#clock figuers
 zero = { 0: ("\u2B1B" "\u2B1C" "\u2B1C" "\u2B1C" "\u2B1C" "\u2B1C" "\u2B1B" ),
          1: ("\u2B1B" "\u2B1C" "\u2B1B" "\u2B1B" "\u2B1B" "\u2B1C" "\u2B1B" ),
          2: ("\u2B1B" "\u2B1C" "\u2B1B" "\u2B1B" "\u2B1B" "\u2B1C" "\u2B1B" ),
