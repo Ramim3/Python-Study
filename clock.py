@@ -1,6 +1,7 @@
 import datetime
+from multiprocessing.sharedctypes import Value
+import time
 from time import strftime
-
 
 theclock = strftime("%H:%M:%S")
 
@@ -144,6 +145,7 @@ def first_h():
         print(two[4])
         print(two[5])
         print(two[6])
+    return n1
 def second_h():
     if n2==0:
         print(zero[0])
@@ -225,6 +227,7 @@ def second_h():
         print(nine[4])
         print(nine[5])
         print(nine[6])
+    return n2
 def first_m():
     if n3==0:
         print(zero[0])
@@ -306,6 +309,7 @@ def first_m():
         print(nine[4])
         print(nine[5])
         print(nine[6])
+    return n3
 def second_m():
     if n4==0:
         print(zero[0])
@@ -387,6 +391,7 @@ def second_m():
         print(nine[4])
         print(nine[5])
         print(nine[6])
+    return n4
 def first_s():
     if n5==0:
         print(zero[0])
@@ -468,6 +473,7 @@ def first_s():
         print(nine[4])
         print(nine[5])
         print(nine[6])
+    return n5
 def second_s():
     if n6==0:
         print(zero[0])
@@ -549,12 +555,8 @@ def second_s():
         print(nine[4])
         print(nine[5])
         print(nine[6])
+    return n6
 
 
-print(first_h())
-print(second_h())
-print(first_m())
-print(second_m())
-print(first_s())
-print(second_s())
+print((first_h()),(second_h()),(first_m()),(second_m()),(first_s()),(second_s()))
 
