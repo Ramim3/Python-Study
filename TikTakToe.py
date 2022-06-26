@@ -53,6 +53,10 @@ def show_statistics():
     print("********************")
     print("Player O's Score Is" + " " + str(o_stats) + " " + "Point's")
     print("Player X's Score Is" + " " + str(x_stats) + " " +  "Point's")
+
+    f = open('score.txt', 'r')
+    content = f.read()
+    print(content)
     
 
     
